@@ -76,11 +76,12 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 ## Addition  of 8 bit ALP 
 
 python
+```
 Mov AL,74H
 MOV BL,69H
 ADD AL,BL
 HLT
-
+```
 
 ## Output
 
@@ -91,11 +92,12 @@ HLT
 ## Subtraction   of 8 bit numbers  ALP 
 
 python
+```
 Mov AL,74H
 MOV BL,69H
 SUB AL,BL
 HLT
-
+```
  
 ## Output  
 
@@ -104,13 +106,14 @@ HLT
 ## Multiplication alp 
 
 python
+```
 org 100h
 Mov AL,74H
 MOV BL,69H
 MUL BL
 HLT
 ret
-
+```
  ## Output  
 
  ![image](https://github.com/user-attachments/assets/d254c950-097f-4dfb-aee6-809d2db2ace2)
@@ -120,11 +123,12 @@ ret
 ## Division alp 
 
 python
+```
 MOV AL,68H
 MOV BL,18H
 DIV BL
 HLT
-
+```
 
 ## Output  
 
